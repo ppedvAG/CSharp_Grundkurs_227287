@@ -138,15 +138,15 @@
 			{
 				//and/or statt &&/||
 				case >= Wochentag.Mo and <= Wochentag.Fr:
-                    Console.WriteLine("Wochenmitte");
-                    break;
+					Console.WriteLine("Wochenmitte");
+					break;
 				case Wochentag.Sa or Wochentag.So:
-                    Console.WriteLine("Wochenende");
+					Console.WriteLine("Wochenende");
 					break;
 				default:
-                    Console.WriteLine("Fehler");
+					Console.WriteLine("Fehler");
 					break;
-            }
+			}
 			#endregion
 		}
 
