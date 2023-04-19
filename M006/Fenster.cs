@@ -6,7 +6,7 @@
 		/// <summary>
 		/// Die Länge des Fensters in Meter
 		/// </summary>
-		private double laenge; //Felder sollten von außen angreifbar sein (private)
+		private double laenge; //Felder sollten nicht von außen angreifbar sein (private)
 
 		/// <summary>
 		/// Gibt die Länge des Fensters zurück.
